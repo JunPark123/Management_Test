@@ -210,20 +210,20 @@
             this.최종검사ToolStripMenuItem1,
             this.oQCToolStripMenuItem});
             this.dpecoToolStripMenuItem.Name = "dpecoToolStripMenuItem";
-            this.dpecoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dpecoToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.dpecoToolStripMenuItem.Text = "Dpeco";
             // 
             // 최종검사ToolStripMenuItem1
             // 
             this.최종검사ToolStripMenuItem1.Name = "최종검사ToolStripMenuItem1";
-            this.최종검사ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.최종검사ToolStripMenuItem1.Size = new System.Drawing.Size(122, 22);
             this.최종검사ToolStripMenuItem1.Text = "최종검사";
             this.최종검사ToolStripMenuItem1.Click += new System.EventHandler(this.최종검사ToolStripMenuItem1_Click);
             // 
             // oQCToolStripMenuItem
             // 
             this.oQCToolStripMenuItem.Name = "oQCToolStripMenuItem";
-            this.oQCToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.oQCToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
             this.oQCToolStripMenuItem.Text = "OQC";
             // 
             // jMWPK329ToolStripMenuItem
@@ -232,7 +232,7 @@
             this.최종검사ToolStripMenuItem2,
             this.oQCToolStripMenuItem1});
             this.jMWPK329ToolStripMenuItem.Name = "jMWPK329ToolStripMenuItem";
-            this.jMWPK329ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.jMWPK329ToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.jMWPK329ToolStripMenuItem.Text = "JMW(PK329)";
             // 
             // 최종검사ToolStripMenuItem2
@@ -258,7 +258,7 @@
             // 디피코ToolStripMenuItem
             // 
             this.디피코ToolStripMenuItem.Name = "디피코ToolStripMenuItem";
-            this.디피코ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.디피코ToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
             this.디피코ToolStripMenuItem.Text = "BK139";
             this.디피코ToolStripMenuItem.Click += new System.EventHandler(this.디피코ToolStripMenuItem_Click);
             // 
