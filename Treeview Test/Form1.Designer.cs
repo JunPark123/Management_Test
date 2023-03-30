@@ -66,6 +66,10 @@
             this.도구ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.사용자지정ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.옵션ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dL프로그래ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bootToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testJigControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.내용ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.인덱스ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,11 +77,9 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dL프로그래ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bootToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.testJigControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -277,7 +279,7 @@
             // 그래프ToolStripMenuItem
             // 
             this.그래프ToolStripMenuItem.Name = "그래프ToolStripMenuItem";
-            this.그래프ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.그래프ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.그래프ToolStripMenuItem.Text = "그래프";
             // 
             // 편집ToolStripMenuItem
@@ -375,6 +377,35 @@
             this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.옵션ToolStripMenuItem.Text = "옵션";
             // 
+            // dL프로그래ToolStripMenuItem
+            // 
+            this.dL프로그래ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bootToolStripMenuItem,
+            this.fWToolStripMenuItem});
+            this.dL프로그래ToolStripMenuItem.Name = "dL프로그래ToolStripMenuItem";
+            this.dL프로그래ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.dL프로그래ToolStripMenuItem.Text = "D/L 프로그램";
+            // 
+            // bootToolStripMenuItem
+            // 
+            this.bootToolStripMenuItem.Name = "bootToolStripMenuItem";
+            this.bootToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bootToolStripMenuItem.Text = "Boot";
+            this.bootToolStripMenuItem.Click += new System.EventHandler(this.bootToolStripMenuItem_Click);
+            // 
+            // fWToolStripMenuItem
+            // 
+            this.fWToolStripMenuItem.Name = "fWToolStripMenuItem";
+            this.fWToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fWToolStripMenuItem.Text = "F/W";
+            this.fWToolStripMenuItem.Click += new System.EventHandler(this.fWToolStripMenuItem_Click);
+            // 
+            // testJigControlToolStripMenuItem
+            // 
+            this.testJigControlToolStripMenuItem.Name = "testJigControlToolStripMenuItem";
+            this.testJigControlToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.testJigControlToolStripMenuItem.Text = "TestJig Control";
+            // 
             // 도움말ToolStripMenuItem
             // 
             this.도움말ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -423,32 +454,15 @@
             this.panel2.Size = new System.Drawing.Size(113, 112);
             this.panel2.TabIndex = 3;
             // 
-            // dL프로그래ToolStripMenuItem
+            // pictureBox1
             // 
-            this.dL프로그래ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bootToolStripMenuItem,
-            this.fWToolStripMenuItem});
-            this.dL프로그래ToolStripMenuItem.Name = "dL프로그래ToolStripMenuItem";
-            this.dL프로그래ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.dL프로그래ToolStripMenuItem.Text = "D/L 프로그램";
-            // 
-            // bootToolStripMenuItem
-            // 
-            this.bootToolStripMenuItem.Name = "bootToolStripMenuItem";
-            this.bootToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.bootToolStripMenuItem.Text = "Boot";
-            // 
-            // fWToolStripMenuItem
-            // 
-            this.fWToolStripMenuItem.Name = "fWToolStripMenuItem";
-            this.fWToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fWToolStripMenuItem.Text = "F/W";
-            // 
-            // testJigControlToolStripMenuItem
-            // 
-            this.testJigControlToolStripMenuItem.Name = "testJigControlToolStripMenuItem";
-            this.testJigControlToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
-            this.testJigControlToolStripMenuItem.Text = "TestJig Control";
+            this.pictureBox1.Image = global::Treeview_Test.Properties.Resources._123;
+            this.pictureBox1.Location = new System.Drawing.Point(1465, 782);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(352, 127);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -456,6 +470,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightBlue;
             this.ClientSize = new System.Drawing.Size(1829, 921);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
@@ -465,6 +480,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -519,6 +535,7 @@
         private System.Windows.Forms.ToolStripMenuItem bootToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fWToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem testJigControlToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
