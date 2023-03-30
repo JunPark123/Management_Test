@@ -73,6 +73,10 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.정보ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.dL프로그래ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bootToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fWToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.testJigControlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -273,7 +277,7 @@
             // 그래프ToolStripMenuItem
             // 
             this.그래프ToolStripMenuItem.Name = "그래프ToolStripMenuItem";
-            this.그래프ToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
+            this.그래프ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.그래프ToolStripMenuItem.Text = "그래프";
             // 
             // 편집ToolStripMenuItem
@@ -352,7 +356,9 @@
             // 
             this.도구ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.사용자지정ToolStripMenuItem,
-            this.옵션ToolStripMenuItem});
+            this.옵션ToolStripMenuItem,
+            this.dL프로그래ToolStripMenuItem,
+            this.testJigControlToolStripMenuItem});
             this.도구ToolStripMenuItem.Name = "도구ToolStripMenuItem";
             this.도구ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.도구ToolStripMenuItem.Text = "도구";
@@ -360,13 +366,13 @@
             // 사용자지정ToolStripMenuItem
             // 
             this.사용자지정ToolStripMenuItem.Name = "사용자지정ToolStripMenuItem";
-            this.사용자지정ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.사용자지정ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.사용자지정ToolStripMenuItem.Text = "사용자 지정";
             // 
             // 옵션ToolStripMenuItem
             // 
             this.옵션ToolStripMenuItem.Name = "옵션ToolStripMenuItem";
-            this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.옵션ToolStripMenuItem.Text = "옵션";
             // 
             // 도움말ToolStripMenuItem
@@ -416,6 +422,33 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(113, 112);
             this.panel2.TabIndex = 3;
+            // 
+            // dL프로그래ToolStripMenuItem
+            // 
+            this.dL프로그래ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bootToolStripMenuItem,
+            this.fWToolStripMenuItem});
+            this.dL프로그래ToolStripMenuItem.Name = "dL프로그래ToolStripMenuItem";
+            this.dL프로그래ToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.dL프로그래ToolStripMenuItem.Text = "D/L 프로그램";
+            // 
+            // bootToolStripMenuItem
+            // 
+            this.bootToolStripMenuItem.Name = "bootToolStripMenuItem";
+            this.bootToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bootToolStripMenuItem.Text = "Boot";
+            // 
+            // fWToolStripMenuItem
+            // 
+            this.fWToolStripMenuItem.Name = "fWToolStripMenuItem";
+            this.fWToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.fWToolStripMenuItem.Text = "F/W";
+            // 
+            // testJigControlToolStripMenuItem
+            // 
+            this.testJigControlToolStripMenuItem.Name = "testJigControlToolStripMenuItem";
+            this.testJigControlToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.testJigControlToolStripMenuItem.Text = "TestJig Control";
             // 
             // Form1
             // 
@@ -482,6 +515,10 @@
         private System.Windows.Forms.ToolStripMenuItem 검색SToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
         private System.Windows.Forms.ToolStripMenuItem 정보ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dL프로그래ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bootToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem fWToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem testJigControlToolStripMenuItem;
     }
 }
 

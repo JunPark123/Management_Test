@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ControlTower.cs" />
     <Compile Include="Dpeco_BoardTest.cs">
       <SubType>Form</SubType>
     </Compile>
